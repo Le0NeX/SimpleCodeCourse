@@ -48,4 +48,24 @@ void vRecevingAparametrsInFunctionThree(int *inputValue)//Receving a pointer in 
 {
 	*inputValue = 3;
 }
-/* Transmission a parametrs in function */
+
+/* Return multiple a values function via links */
+void vStorageMultipleAvalues()
+{
+	int nNumberOne = 0, nNumberTwo = 4, nNumberThree = 34;
+	cout << "nNumberOne:\t" << nNumberOne << endl;
+	cout << "nNumberTwo:\t" << nNumberTwo << endl;
+	cout << "nNumberThree:\t" << nNumberThree << endl;
+	cout << "==============================================" << endl;
+	vInputMultipleValues(nNumberOne, nNumberTwo, nNumberThree);
+	cout << "nNumberOne:\t" << nNumberOne << endl;
+	cout << "nNumberTwo:\t" << nNumberTwo << endl;
+	cout << "nNumberThree:\t" << nNumberThree << endl;
+}
+
+void vInputMultipleValues(int& nNumOne, int& nNumTwo, int& nNumThree)
+{
+	nNumOne = 10;
+	nNumTwo *= 2;
+	nNumThree -= 100;
+}

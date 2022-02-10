@@ -7,6 +7,11 @@
 #include "MemoryLeak.h"
 #include "Pointers.h"
 #include "Links.h"
+#include "DynamicAmemery.h"
+#include "DynamicArray.h"
+#include "TwoDimensionalDynamicArray.h"
+#include "CopyDynamicArray.h"
+
 
 int main()
 {
@@ -29,8 +34,13 @@ int main()
 	//vServivalPointerOutput();
 	//vValueToSwap();
 	//vLink();
-	vStorageAvalue();
-
+	//vStorageAvalue();
+	//vStorageMultipleAvalues();
+	//vRunSwapUnknowValues();
+	//vRunFunctions();
+	//vRunDynamicArray();
+	//vRunTwoDimensionalDynamicArray();
+	vRunCopyDynamicArray();
 
 	return 0;
 }

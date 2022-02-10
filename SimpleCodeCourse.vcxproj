@@ -140,6 +140,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ClassTemplated.cpp" />
+    <ClCompile Include="CopyDynamicArray.cpp" />
+    <ClCompile Include="DynamicAmemery.cpp" />
+    <ClCompile Include="DynamicArray.cpp" />
     <ClCompile Include="FileBasic.cpp" />
     <ClCompile Include="FunctionOverload.cpp" />
     <ClCompile Include="FunctionsTemplate.cpp" />
@@ -150,9 +153,13 @@
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="Recursion.cpp" />
+    <ClCompile Include="TwoDimensionalDynamicArray.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClassTemplated.h" />
+    <ClInclude Include="CopyDynamicArray.h" />
+    <ClInclude Include="DynamicAmemery.h" />
+    <ClInclude Include="DynamicArray.h" />
     <ClInclude Include="FileBasic.h" />
     <ClInclude Include="FunctionOverload.h" />
     <ClInclude Include="FunctionsTemplate.h" />
@@ -162,6 +169,7 @@
     <ClInclude Include="Array.h" />
     <ClInclude Include="Pointers.h" />
     <ClInclude Include="Recursion.h" />
+    <ClInclude Include="TwoDimensionalDynamicArray.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
