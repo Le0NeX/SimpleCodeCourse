@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="TableASCIISymbol.cpp" />
     <ClCompile Include="ClassTemplated.cpp" />
     <ClCompile Include="CopyDynamicArray.cpp" />
     <ClCompile Include="DynamicAmemery.cpp" />
@@ -146,6 +147,7 @@
     <ClCompile Include="FileBasic.cpp" />
     <ClCompile Include="FunctionOverload.cpp" />
     <ClCompile Include="FunctionsTemplate.cpp" />
+    <ClCompile Include="LinesAndStringArray.cpp" />
     <ClCompile Include="Links.cpp" />
     <ClCompile Include="MemoryLeak.cpp" />
     <ClCompile Include="NestedLoop.cpp" />
@@ -154,8 +156,11 @@
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="Recursion.cpp" />
     <ClCompile Include="TwoDimensionalDynamicArray.cpp" />
+    <ClCompile Include="TypeConversion.cpp" />
+    <ClCompile Include="WorkingOfArray.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="TableASCIISymbol.h" />
     <ClInclude Include="ClassTemplated.h" />
     <ClInclude Include="CopyDynamicArray.h" />
     <ClInclude Include="DynamicAmemery.h" />
@@ -163,6 +168,7 @@
     <ClInclude Include="FileBasic.h" />
     <ClInclude Include="FunctionOverload.h" />
     <ClInclude Include="FunctionsTemplate.h" />
+    <ClInclude Include="LinesAndStringArray.h" />
     <ClInclude Include="Links.h" />
     <ClInclude Include="MemoryLeak.h" />
     <ClInclude Include="NestedLoop.h" />
@@ -170,6 +176,8 @@
     <ClInclude Include="Pointers.h" />
     <ClInclude Include="Recursion.h" />
     <ClInclude Include="TwoDimensionalDynamicArray.h" />
+    <ClInclude Include="TypeConversion.h" />
+    <ClInclude Include="WorkingOfArray.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

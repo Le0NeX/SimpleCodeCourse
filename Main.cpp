@@ -11,6 +11,10 @@
 #include "DynamicArray.h"
 #include "TwoDimensionalDynamicArray.h"
 #include "CopyDynamicArray.h"
+#include "WorkingOfArray.h"
+#include "LinesAndStringArray.h"
+#include "TypeConversion.h"
+#include "TableASCIISymbol.h"
 
 
 int main()
@@ -40,7 +44,12 @@ int main()
 	//vRunFunctions();
 	//vRunDynamicArray();
 	//vRunTwoDimensionalDynamicArray();
-	vRunCopyDynamicArray();
+	//vRunCopyDynamicArray();
+	//RunArray();
+	//RunLinesAndStringArray();
+	//RunTypeConversion();
+	RunTableASCIISymbol();
+
 
 	return 0;
 }
